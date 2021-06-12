@@ -1,0 +1,22 @@
+Deploying contracts with the account: 
+address: 0x0ef7FBa5e8D1FeE7DCC2321CF3C88D394911A290 
+mnemonic: "hurdle few first ginger later where owner ranch suffer chunk frame carry"
+
+BUSD address: 0x28322B766217c2364F21d28B0c2cdB38E47ABeb8
+npx hardhat verify --contract contracts/BasicToken.sol:BasicToken --constructor-args args/testnet/busd.args.js --network testnet 0x28322B766217c2364F21d28B0c2cdB38E47ABeb8
+https://testnet.bscscan.com/address/0x28322B766217c2364F21d28B0c2cdB38E47ABeb8#code
+
+USDT address: 0x953127E3FD355e082279344ED0EA74D5731F7BdD
+npx hardhat verify --contract contracts/BasicToken.sol:BasicToken --constructor-args args/testnet/usdt.args.js --network testnet 0x953127E3FD355e082279344ED0EA74D5731F7BdD
+https://testnet.bscscan.com/address/0x953127E3FD355e082279344ED0EA74D5731F7BdD#code
+
+ArtworkNFT address: 0xAfdBEF5494C72579e918FE7427C9Ca097e704983
+npx hardhat verify --constructor-args args/testnet/artworknft.args.js --network testnet 0xAfdBEF5494C72579e918FE7427C9Ca097e704983
+https://testnet.bscscan.com/address/0xAfdBEF5494C72579e918FE7427C9Ca097e704983#code
+
+BidNFT address: 0x878131Cc65ef20F1C0FC4e078f7ca60191722B12
+npx hardhat verify --libraries args/testnet/libraries.js --constructor-args args/testnet/bidnft.args.js --network testnet 0x878131Cc65ef20F1C0FC4e078f7ca60191722B12
+https://testnet.bscscan.com/address/0x878131Cc65ef20F1C0FC4e078f7ca60191722B12#code
+Libraries:
+    AskHelper address: 0x5dCf6d6D53D58b4A62098014b4f1a76AA8A280f1
+    TradeHelper address: 0xd71aDD0571f44F6C5d6Afbb2eA610921740fC82F
